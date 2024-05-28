@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oi&display=swap');
+
+main {
+    width: 360px;
+    height: 1020px;
+    background: #8797b2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 320px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgb(123, 174, 127);
+}
+
+.card span {
+    position: relative;
+    top: 12px;
+    margin-left: 20px;
+    color: black;
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+}
+
+.card button {
+    width: 320px;
+    height: 142px;
+    position: relative;
+    right: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.header {
+    width: 360px;
+    height: 80px;
+    background-color: rgb(72, 72, 58);
+    color: rgb(123, 174, 127);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header span {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu-background {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 360px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+#menu {
+    width: 320px;
+    height: 180px;
+    margin-left: 360px;
+    transition: margin-left 0.5s ease-out;
+    margin-top: 80px;
+    background-color: rgb(72, 72, 58);
+}
+
+#menu ul li a{
+    color: rgb(123, 174, 127);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+}
+
+#menu ul li {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#menu ul {
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu-exit {
+    color: crimson;
+}
+
+#menu-background:hover {
+    #menu.active {
+        margin-left: 40px;
+    }    
+}
+
+#open-menu {
+    display: block;
+    margin-left: 103px;
+    border: none;
+    background-color: transparent;
+}

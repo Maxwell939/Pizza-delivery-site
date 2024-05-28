@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oi&display=swap');
+
+main {
+    width: 360px;
+    height: 800px;
+    background: #8797b2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    height: 140px;
+    width: 360px;
+}
+
+.pizza_name{
+    position: relative;
+    top: 16px;
+    margin-left: 29px;
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    color: rgb(34, 49, 39);
+}
+
+.add_price {
+    margin-top: 30px;
+    margin-left: 27px;
+}
+
+.add_button {
+    width: 150px;
+    height: 30px;
+    background: #7BAE7F;
+    border-radius: 9px;
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    color: black;
+    border: none;
+}
+
+.price {
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    color: rgb(34, 49, 39);
+    margin-left: 59px;
+}
+
+.pizza_diam {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(217, 217, 217);
+    margin-top: 15px;
+    margin-left: 198px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pizza_diam span {
+    color: black;
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+}
+
+.description {
+    padding-top: 25px;
+    padding-left: 26px;
+}
+
+.title_description {
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    color: rgb(34, 49, 39);
+}
+
+.text_description {
+    position: relative;
+    top: 30px;
+    text-align: left;
+}
+
+.text_description span {
+    color: white;
+    font-family: "Oi", sans-serif;
+    -webkit-text-stroke: 1px rgb(34, 49, 39);
+}
+
+.header {
+    width: 360px;
+    height: 80px;
+    background-color: rgb(72, 72, 58);
+    color: rgb(123, 174, 127);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header span {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#menu-background {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 360px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+#menu {
+    width: 320px;
+    height: 180px;
+    margin-left: 360px;
+    transition: margin-left 0.5s ease-out;
+    margin-top: 80px;
+    background-color: rgb(72, 72, 58);
+}
+
+#menu ul li a{
+    color: rgb(123, 174, 127);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+}
+
+#menu ul li {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#menu ul {
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu-exit {
+    color: crimson;
+}
+
+#menu-background:hover {
+    #menu.active {
+        margin-left: 40px;
+    }    
+}
+
+#open-menu {
+    display: block;
+    margin-left: 137px;
+    border: none;
+    background-color: transparent;
+}

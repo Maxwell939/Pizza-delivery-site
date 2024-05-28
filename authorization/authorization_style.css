@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oi&display=swap');
+
+main {
+    width: 360px;
+    height: 800px;
+    background: #8797b2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 305px;
+    height: 106px;
+    padding: 10px;
+    margin-top: 115px;
+    margin-bottom: 192px;
+}
+
+.title_text {
+    /* ПИЦЦА МШП */
+    color: rgb(34, 49, 39);
+    font-family: "Oi", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.title_line {
+    /* Line 1 */
+    width: 305px;
+    height: 9px;
+    background-color: rgb(34, 49, 39);
+}
+
+.title_second-text {
+    /* ДОСТАВКА */
+    color: rgb(34, 49, 39);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sign-in_input-field {
+    /* Rectangle 2 */
+    width: 230px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: rgb(217, 217, 217);
+    color: rgb(135, 151, 178);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.sign-in_button {
+    /* Rectangle 1 */
+    width: 144px;
+    height: 34px;
+    border-radius: 12px;
+    background-color: rgb(123, 174, 127);
+    color: rgb(0, 0, 0);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prompt_text {
+    /* Не зарегистрированы? Продолжите гостем */
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.header {
+    width: 360px;
+    height: 80px;
+    background-color: rgb(72, 72, 58);
+    color: rgb(123, 174, 127);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header span {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu-background {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 360px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+#menu {
+    width: 320px;
+    height: 180px;
+    margin-left: 360px;
+    transition: margin-left 0.5s ease-out;
+    margin-top: 80px;
+    background-color: rgb(72, 72, 58);
+}
+
+#menu ul li a{
+    color: rgb(123, 174, 127);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+}
+
+#menu ul li {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#menu ul {
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu-exit {
+    color: crimson;
+}
+
+#menu-background:hover {
+    #menu.active {
+        margin-left: 40px;
+    }    
+}
+
+#open-menu {
+    display: block;
+    margin-left: 160px;
+    border: none;
+    background-color: transparent;
+}
