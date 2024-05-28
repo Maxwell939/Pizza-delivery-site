@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oi&display=swap');
+
 main {
     width: 360px;
     height: 800px;
@@ -7,171 +8,154 @@ main {
     margin-right: auto;
 }
 
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 305px;
+    height: 106px;
+    padding: 10px;
+    margin-top: 115px;
+    margin-bottom: 192px;
+}
+
 .title_text {
     /* ПИЦЦА МШП */
-    position: relative;
-    width: 305px;
-    height: 51px;
-    left: 27px;
-    right: -27px;
-    top: 195px;
-    bottom: -140px;
     color: rgb(34, 49, 39);
     font-family: "Oi", sans-serif;
     font-size: 32px;
-    font-weight: 400;
-    line-height: 51px;
     text-align: center;
-    margin: auto;
+    margin-top: 115px;
 }
 
 .title_line {
     /* Line 1 */
-    position: relative;
     width: 305px;
     height: 9px;
-    left: 27px;
-    top: 275px;
     background-color: rgb(34, 49, 39);
-    margin: auto;
 }
 
-.title_second_text {
+.title_second-text {
     /* ДОСТАВКА */
-    position: relative;
-    width: 136px;
-    height: 25px;
-    left: 27px;
-    right: 142px;
-    top: 276px;
-    bottom: -195px;
     color: rgb(34, 49, 39);
     font-family: "Oi", sans-serif;
     font-size: 16px;
     text-align: center;
-    margin: auto;
 }
 
-.sign_in_input_field_login {
-    /* Rectangle 4 */
-    position: relative;
-    width: 183px;
-    height: 34px;
-    left: 84px;
-    right: -84px;
-    top: 519px;
-    bottom: -519px;
-    border-radius: 4px;
-    background: rgb(217, 217, 217);
-    margin: auto;
-}
-
-.sign_in_input_field_password {
+.sign-in_input-field {
     /* Rectangle 2 */
-    position: relative;
-    width: 183px;
-    height: 34px;
-    left: 85px;
-    right: -85px;
-    top: 579px;
-    bottom: -579px;
+    width: 230px;
+    height: 35px;
     border-radius: 4px;
-    background: rgb(217, 217, 217);
-    margin: auto;
-}
-
-.sign_in_text_login {
-    /* Логин */
-    position: relative;
-    width: 79px;
-    height: 25px;
-    left: 96px;
-    right: 8px;
-    top: 510px;
-    bottom: -500px;
-    /* Text style */
+    background-color: rgb(217, 217, 217);
     color: rgb(135, 151, 178);
     font-family: "Oi", sans-serif;
     font-size: 16px;
-    text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    display: flex;
+    padding-left: 20px;
 }
 
-.sing_in_text_password {
-    /* Пароль */
-    position: relative;
-    width: 96px;
-    height: 25px;
-    left: 96px;
-    right: -9px;
-    top: 570px;
-    bottom: -570px;
-    /* Text style */
-    color: rgb(135, 151, 178);
-    font-family: "Oi", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    margin: auto;
-}
-
-.sign_in_button {
+.sign-in_button {
     /* Rectangle 1 */
-    position: relative;
     width: 144px;
     height: 34px;
-    left: 104px;
-    right: -104px;
-    top: 651px;
-    bottom: -651px;
     border-radius: 12px;
-    background: rgb(123, 174, 127);
-    margin: auto;
-}
-
-.sign_in_text {
-    /* Войти */
-    position: relative;
-    width: 81px;
-    height: 25px;
-    left: 135px;
-    right: -72px;
-    top: 655px;
-    bottom: -646px;
+    background-color: rgb(123, 174, 127);
     color: rgb(0, 0, 0);
     font-family: "Oi", sans-serif;
     font-size: 16px;
-    text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .prompt_text {
     /* Не зарегистрированы? Продолжите гостем */
-    position: relative;
-    width: 137px;
-    height: 30px;
-    left: 112px;
-    right: 111px;
-    top: 706px;
-    bottom: 64px;
     color: rgb(0, 0, 0);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0%;
     text-align: center;
-    margin: auto;
 }
 
-.menu {
-    /* Frame 2 */
-    position: relative;
+.header {
     width: 360px;
     height: 80px;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 720px;
-    background: rgb(72, 72, 58);
-    margin: auto;
+    background-color: rgb(72, 72, 58);
+    color: rgb(123, 174, 127);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header span {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu-background {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 360px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+#menu {
+    width: 320px;
+    height: 180px;
+    margin-left: 360px;
+    transition: margin-left 0.5s ease-out;
+    margin-top: 80px;
+    background-color: rgb(72, 72, 58);
+}
+
+#menu ul li a{
+    color: rgb(123, 174, 127);
+    font-family: "Oi", sans-serif;
+    font-size: 16px;
+}
+
+#menu ul li {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#menu ul {
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu-exit {
+    color: crimson;
+}
+
+#menu-background:hover {
+    #menu.active {
+        margin-left: 40px;
+    }    
+}
+
+#open-menu {
+    display: block;
+    margin-left: 160px;
+    border: none;
+    background-color: transparent;
 }
